@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url("../fonts/Trebuchet MS Bold.ttf");
+}
+
+
+body {
+    margin: 28px 0 0 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.left {
+    background-color: black;
+    color: white;
+}
+
+.leftheading {
+    font-size: 12px;
+    padding: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.rightheading {
+    font-size: 12px;
+    padding: 32px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.email {
+    background: #f1f1f1;
+}
+
+.hello,
+.hi {
+    margin-top: 100px;
+}
+
+
+.socials {
+    margin-top: 20px;
+}
+
+.socials a {
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 55px;
+    color: black;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.socials a:hover {
+    color: white;
+    background-color: black
+}
+
+
+.logo {
+    width: 250px;
+    margin-top: 70px;
+}
+
+
+.hello {
+    width: 360px;
+}
+
+.hi {
+    width: 360px;
+    position: absolute;
+    margin-left: -360px;
+}
+@media (max-width: 767px) {
+    .hi {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .socials a {
+        display: inline-block;
+    }
+
+    .leftheading {
+        line-height: 26px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .socials {
+        margin-top: 80px;
+    }
+
+    .logo {
+        margin-top: 340px;
+    }
+}
